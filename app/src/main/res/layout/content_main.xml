@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="se.gulstad.anders.kodminne.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/editCode1"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Code"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/editText2"
+        android:layout_toRightOf="@+id/editText1"
+        android:layout_toEndOf="@+id/editText1" />
+
+    <EditText
+        android:id="@+id/editCode2"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Code"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/editText3"
+        android:layout_toRightOf="@+id/editText2"
+        android:layout_toEndOf="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/editCode3"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Code"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/editText4"
+        android:layout_toRightOf="@+id/editText3"
+        android:layout_toEndOf="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editCode4"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Code"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/editText5"
+        android:layout_toRightOf="@+id/editText4"
+        android:layout_toEndOf="@+id/editText4" />
+
+    <EditText
+        android:id="@+id/editCode5"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Code"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/editText6"
+        android:layout_toRightOf="@+id/editText5"
+        android:layout_toEndOf="@+id/editText5" />
+
+    <EditText
+        android:id="@+id/editCode6"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="Code"
+        android:layout_below="@+id/editCode5"
+        android:layout_alignLeft="@+id/editCode5"
+        android:layout_alignStart="@+id/editCode5" />
+
+    <EditText
+        android:id="@+id/editCode7"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:text="Code"
+        android:layout_below="@+id/editCode6"
+        android:layout_alignLeft="@+id/editCode6"
+        android:layout_alignStart="@+id/editCode6" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editCode6"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="44dp"
+        android:onClick="onSaveButtonClicked"
+        android:text="Spara datat" />
+
+</RelativeLayout>
